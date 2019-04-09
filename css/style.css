@@ -4,5 +4,10 @@ body{
 }
 
 header{
+  background-color: #363636;
+  background-attachment: fixed;
+}
 
+.container-centerd{
+  background-position: center;
 }
