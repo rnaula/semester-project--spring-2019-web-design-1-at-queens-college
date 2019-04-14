@@ -4,10 +4,12 @@ body{
 }
 
 header{
-  background-color: #363636;
-  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Manuale', serif;
+  font-size: 2rem;
 }
-
-.container-centerd{
-  background-position: center;
+ol{
+  background-color: #e5e5e5;
+  list-style-type: decimal-leading-zero;
+  margin-left: 20px;
 }
