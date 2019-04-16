@@ -1,14 +1,22 @@
-body{
-  margin: 0 20px 0 20px;
+body {
+  margin: 0 10px 0 10px;
   background-color: #e5e5e5;
 }
 
-header{
-  text-align: center;
+header.container {
+  background-image: url(../img/8699369566_44a137e734_o.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1{
   font-family: 'Manuale', serif;
   font-size: 2rem;
+  text-align: center;
 }
-ol{
+
+ol {
   background-color: #e5e5e5;
   list-style-type: decimal-leading-zero;
   margin-left: 20px;
