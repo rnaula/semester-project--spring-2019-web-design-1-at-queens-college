@@ -1,21 +1,28 @@
-body {
-  margin: 0 10px 0 10px;
-  background-color: #e5e5e5;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-header.container {
-  background-image: url(../img/8699369566_44a137e734_o.jpg);
+body{
+    background-color: #e5e5e5;
+    width: 1024px;
+    margin: auto;
+}
+.container{
+  background-image: url('../img/8699369566_44a137e734_o.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
+  background-position: center;
+  width: 1024px;
+  height: 600px;
 }
 
 h1{
-  font-family: 'Manuale', serif;
-  font-size: 2rem;
+  font-family: 'Manuale';
+  font-size: 4rem;
+  color: #ffffff;
   text-align: center;
+  padding-top: 250px
 }
-
 ol {
   background-color: #e5e5e5;
   list-style-type: decimal-leading-zero;
