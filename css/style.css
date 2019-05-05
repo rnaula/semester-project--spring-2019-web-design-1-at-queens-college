@@ -6,9 +6,9 @@
 
 body {
   font-family: Ubuntu;
-  width: 1024px;
+  width: 1280px;
   height: 20000px;
-  display: block;
+  place-items: center;
 }
 
 /* nav */
@@ -16,7 +16,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1280px;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -24,7 +24,7 @@ body {
   align-items: center;
 }
 
-a,h1,p:nth-of-type(1) {
+a,h1:nth-of-type(1) {
   font-family: Manuale;
 }
 a {
@@ -39,15 +39,16 @@ h1 {
   padding: 4px;
 }
 
-p:nth-of-type(1) {
+a:nth-of-type(2) {
   color: white;
   padding-right: 6px;
+  font-family: Manuale;
 }
 /* end nav */
  /* start body part one */
 #container-1 {
 padding-top: 45px;
-width: 100vw;
+width: 1280px;
 display: flex;
 flex-direction: row;
 background: url('../img/boards-album - Copy.jpg')no-repeat fixed 0 0 / cover;
@@ -81,11 +82,11 @@ h3 {
 ol {
   list-style: decimal-leading-zero;
   padding: 10px;
-  line-height: 20px
+  line-height: 20px;
+  column-count: 2;
 }
 /* end body part 1  */
 /* start body part 2 */
 #container-3 {
-  display: flex;
-  
+
 }
