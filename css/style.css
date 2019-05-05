@@ -99,6 +99,11 @@ h3 {
   font-size: 2.5rem;
 }
 
+h3 {
+  border: 4px outset white;
+  padding: 9px;
+}
+
 #p-1 {
 width: 500px;
 font-size: 20px;
