@@ -106,7 +106,7 @@ h3 {
 
 #p-1 {
 width: 500px;
-font-size: 20px;
+font-size: 19px;
 }
 
 #continer-4 {
@@ -145,7 +145,7 @@ padding: 110px;
 
 #p-3,#container-5-2 {
   width: 500px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 #container-5-2 {
@@ -157,4 +157,37 @@ padding: 110px;
 
 #p-4 {
 padding-top: 20px;
+}
+
+#image-3 {
+  height: 800px;
+  width: 438px;
+}
+
+#container-6 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 110px;
+}
+
+#container-6-1 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  font-size: 19px;
+}
+
+#container-6-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#p-5 {
+  width: 335px;
+  text-align: center;
+  font-size: 12px;
 }
