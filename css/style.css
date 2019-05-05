@@ -75,7 +75,7 @@ h2 {
   font-size: 12px;
 }
 
-h3 {
+h2:nth-of-type(2) {
   font-size: 14px;
 }
 
@@ -87,6 +87,7 @@ ol {
 }
 /* end body part 1  */
 /* start body part 2 */
-#container-3 {
-
+h3:nth-of-type(2){
+  font-family: Manuale;
+  font-size: 2.5rem;
 }
